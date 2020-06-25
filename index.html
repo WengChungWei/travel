@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="html5reset.css" />
+    <title>Static Template</title>
+    <style>
+      body {
+        font-family: Apple LiGothic Medium, Tahoma, Arial;
+      }
+      .opa_class:hover {
+        opacity: 0.5;
+        cursor: pointer;
+      }
+    </style>
+    <script>
+      $(document).ready(function() {
+        var h2 = $(window).height();
+        var h = h2 / 36;
+        $("#target").css({
+          width: h * 3,
+          height: h * 3,
+          margin: "auto",
+          "margin-top": h * 5,
+          position: "relative",
+          "background-color": "white"
+        });
+        $("#taipei").css({
+          width: h * 3,
+          height: h * 3,
+          margin: "auto",
+          position: "absolute",
+          "background-color": "#58B2DC"
+        });
+        $("#keelung").css({
+          width: h * 2,
+          height: h * 2,
+          position: "absolute",
+          left: h,
+          bottom: h * 2,
+          "background-color": "#0089A7"
+        });
+        $("#taoyuan").css({
+          width: h * 4,
+          height: h * 1,
+          position: "absolute",
+          left: -h * 2,
+          bottom: -h,
+          "background-color": "#33A6B8"
+        });
+        $("#hsinchu").css({
+          width: h * 4,
+          height: h * 1,
+          position: "absolute",
+          left: -h * 2,
+          bottom: -h * 2,
+          "background-color": "#81C7D4"
+        });
+        $("#miaoli").css({
+          width: h * 4,
+          height: h * 1,
+          position: "absolute",
+          left: -h * 2,
+          bottom: -h * 3,
+          "background-color": "#78C2C4"
+        });
+        $("#taichung").css({
+          width: h * 5,
+          height: h * 2,
+          position: "absolute",
+          left: -h * 3,
+          bottom: -h * 5,
+          "background-color": "#B5CAA0"
+        });
+        $("#nantou").css({
+          width: h * 3,
+          height: h * 6,
+          position: "absolute",
+          left: -h,
+          bottom: -h * 11,
+          "background-color": "#E9CD4C"
+        });
+        $("#changhua").css({
+          width: h * 3,
+          height: h * 2,
+          position: "absolute",
+          left: -h * 4,
+          bottom: -h * 7,
+          "background-color": "#D9CD90"
+        });
+        $("#yunlin").css({
+          width: h * 4,
+          height: h * 2,
+          position: "absolute",
+          left: -h * 5,
+          bottom: -h * 9,
+          "background-color": "#F6C555"
+        });
+        $("#chiayi").css({
+          width: h * 4,
+          height: h * 2,
+          position: "absolute",
+          left: -h * 5,
+          bottom: -h * 11,
+          "background-color": "#FFB11B"
+        });
+        $("#kaohsiung").css({
+          width: h * 6,
+          height: h * 3,
+          position: "absolute",
+          left: -h * 4,
+          bottom: -h * 14,
+          "background-color": "#F05E1C"
+        });
+        $("#tainan").css({
+          width: h * 4,
+          height: h * 2,
+          position: "absolute",
+          left: -h * 6,
+          bottom: -h * 13,
+          "background-color": "#E79460"
+        });
+        $("#pingtung").css({
+          width: h * 3,
+          height: h * 8,
+          position: "absolute",
+          left: -h,
+          bottom: -h * 22,
+          "background-color": "#E83015"
+        });
+        $("#pingtung_2").css({
+          width: h,
+          height: h,
+          position: "absolute",
+          left: -h,
+          bottom: -h * 22,
+          "background-color": "white"
+        });
+        $("#yilan").css({
+          width: h * 3,
+          height: h * 3,
+          position: "absolute",
+          left: h * 2,
+          bottom: -h * 3,
+          "background-color": "#5DAC81"
+        });
+        $("#hualien").css({
+          width: h * 3,
+          height: h * 8,
+          position: "absolute",
+          left: h * 2,
+          bottom: -h * 11,
+          "background-color": "#FFB11B"
+        });
+        $("#taitung").css({
+          width: h * 3,
+          height: h * 6,
+          position: "absolute",
+          left: h * 2,
+          bottom: -h * 17,
+          "background-color": "#ED784A"
+        });
+        $("#taitung_2").css({
+          width: h,
+          height: h * 2,
+          position: "absolute",
+          left: h * 4,
+          bottom: -h * 17,
+          "background-color": "white"
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="target">
+      <div
+        id="taipei"
+        class="opa_class"
+        onclick="location.href='county/taipei.html';"
+      ></div>
+      <div
+        id="keelung"
+        class="opa_class"
+        onclick="location.href='county/keelung.html';"
+      ></div>
+      <div
+        id="taoyuan"
+        class="opa_class"
+        onclick="location.href='county/taoyuan.html';"
+      ></div>
+      <div
+        id="hsinchu"
+        class="opa_class"
+        onclick="location.href='county/hsinchu.html';"
+      ></div>
+      <div
+        id="miaoli"
+        class="opa_class"
+        onclick="location.href='county/miaoli.html';"
+      ></div>
+      <div
+        id="taichung"
+        class="opa_class"
+        onclick="location.href='county/taichung.html';"
+      ></div>
+      <div
+        id="nantou"
+        class="opa_class"
+        onclick="location.href='county/nantou.html';"
+      ></div>
+      <div
+        id="changhua"
+        class="opa_class"
+        onclick="location.href='county/changhua.html';"
+      ></div>
+      <div
+        id="yunlin"
+        class="opa_class"
+        onclick="location.href='county/yunlin.html';"
+      ></div>
+      <div
+        id="chiayi"
+        class="opa_class"
+        onclick="location.href='county/chiayi.html';"
+      ></div>
+      <div
+        id="kaohsiung"
+        class="opa_class"
+        onclick="location.href='county/kaohsiung.html';"
+      ></div>
+      <div
+        id="tainan"
+        class="opa_class"
+        onclick="location.href='county/tainan.html';"
+      ></div>
+      <div
+        id="pingtung"
+        class="opa_class"
+        onclick="location.href='county/pingtung.html';"
+      ></div>
+      <div id="pingtung_2"></div>
+      <div
+        id="yilan"
+        class="opa_class"
+        onclick="location.href='county/yilan.html';"
+      ></div>
+      <div
+        id="hualien"
+        class="opa_class"
+        onclick="location.href='county/hualien.html';"
+      ></div>
+      <div
+        id="taitung"
+        class="opa_class"
+        onclick="location.href='county/taitung.html';"
+      ></div>
+      <div id="taitung_2"></div>
+    </div>
+  </body>
+</html>
